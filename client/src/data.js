@@ -3,12 +3,17 @@ import tour2 from './images/tour-2.jpeg';
 import tour3 from './images/tour-3.jpeg';
 import tour4 from './images/tour-4.jpeg';
 
+// New images from the web
+import tour5 from './images/pexels-photo-2161467.jpeg';
+import tour6 from './images/pexels-photo-2147993.jpeg';
+
 export const pageLinks = [
   { id: 1, href: '#home', text: 'home' },
   { id: 2, href: '#about', text: 'about' },
   { id: 3, href: '#services', text: 'services' },
   { id: 4, href: '#tours', text: 'tours' },
 ];
+
 export const socialLinks = [
   { id: 1, href: 'https://www.twitter.com', icon: 'fab fa-facebook' },
   { id: 2, href: 'https://www.twitter.com', icon: 'fab fa-twitter' },
@@ -76,5 +81,26 @@ export const tours = [
     location: 'kenya',
     duration: 20,
     cost: 3300,
+  },
+  // New tour data
+  {
+    id: 5,
+    image: tour5,
+    date: 'january 10th, 2021',
+    title: 'Safari in Tanzania',
+    info: `Experience the breathtaking wildlife and landscapes of Tanzania. From the Serengeti to Ngorongoro Crater, immerse yourself in nature.`,
+    location: 'tanzania',
+    duration: 12,
+    cost: 4500,
+  },
+  {
+    id: 6,
+    image: tour6,
+    date: 'july 20th, 2021',
+    title: 'Australian Outback',
+    info: `Discover the rugged beauty of the Australian Outback. Explore vast deserts, ancient rock formations, and unique wildlife.`,
+    location: 'australia',
+    duration: 10,
+    cost: 3800,
   },
 ];
