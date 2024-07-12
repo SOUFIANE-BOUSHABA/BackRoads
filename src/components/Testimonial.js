@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from 'react';
+import Title from './Title';
 
 const testimonials = [
   {
@@ -86,12 +87,15 @@ const Testimonial = () => {
 
   return (
     <section className='section' id='testimonial'>
-      <h2 className='section-title'>Testimonials</h2>
+        <Title title='Testi' subTitle='monial' />
       <div className='testimonial-container'>
         {visibleTestimonials.map((testimonial) => (
           <div className='testimonial-card' key={testimonial.id}>
             <div className='testimonial-header'>
-              <img src={testimonial.image} className='testimonial-photo' alt={testimonial.name} />
+                <div className='testimonial-photo-container'>
+                <img src={testimonial.image} className='testimonial-photo' alt={testimonial.name} />
+
+                    </div>
               <div className='testimonial-info'>
                 <h3 className='testimonial-name'>{testimonial.name}</h3>
                 <p className='testimonial-date'>{testimonial.date}</p>

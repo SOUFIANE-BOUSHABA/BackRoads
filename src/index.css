@@ -588,17 +588,23 @@ min-height:calc(100vh - 62px);
 }
 
 .testimonial-header {
-  display: flex;
   align-items: center;
+  justify-content: space-between;
   margin-bottom: 1rem;
+}
+
+.testimonial-photo-container{
+  width:100px;
+  height: 100px;
 }
 
 .testimonial-photo {
   border-radius: 50%;
-  width: 60px;
-  height: 60px;
+  width: 100px;
+  height: 100px;
   object-fit: cover;
   margin-right: 1rem;
+  margin-bottom: 1rem;
 }
 
 .testimonial-info {
