@@ -106,8 +106,16 @@ const Testimonial = () => {
         ))}
       </div>
       <div className='testimonial-controls'>
-        <button onClick={handlePrev} className='testimonial-button'>Previous</button>
-        <button onClick={handleNext} className='testimonial-button'>Next</button>
+        <button onClick={handlePrev} className='testimonial-button'>
+          <svg width="24" height="24" viewBox="0 0 24 24">
+            <path d="M15.41 7.41L14 6l-6 6 6 6 1.41-1.41L10.83 12z" />
+          </svg>
+        </button>
+        <button onClick={handleNext} className='testimonial-button'>
+          <svg width="24" height="24" viewBox="0 0 24 24">
+            <path d="M8.59 16.59L10 18l6-6-6-6-1.41 1.41L13.17 12z" />
+          </svg>
+        </button>
       </div>
     </section>
   );

@@ -634,8 +634,8 @@ min-height:calc(100vh - 62px);
 }
 
 .testimonial-button {
-  background-color: #007bff;
-  color: white;
+  background-color: #edeff0;
+  color: rgb(16, 15, 15);
   border: none;
   padding: 0.5rem 1rem;
   cursor: pointer;
@@ -644,5 +644,6 @@ min-height:calc(100vh - 62px);
 }
 
 .testimonial-button:hover {
-  background-color: #0056b3;
+  background-color: #9d9e9e;
+  transition: background-color 0.5s ease-in-out;
 }
